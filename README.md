@@ -1,59 +1,23 @@
-# Module One Final Project Guidelines
+<h1>Buffy the Vampire Slayer - A CLI Mini-Game!</h1>
 
-Congratulations, you're at the end of module one! You've worked crazy hard to get here and have learned a ton.
+<p>Play as Buffy Summers in this <s>(extremely rudimentary)</s> game version of the TV show.</p>
+<p>Buffy's best friend Willow Rosenberg has always been a bit of a wallflower. She doesn't have a lot of success at school in the romance department. That all changes once she meets a friendly guy named Malcolm on the internet. He's romantic, caring, and hopelessly devoted to her. But...is he also a 14th century demon unleashed to wreak havoc on the world wide web? Only you can uncover the truth! </p>
 
-For your final project, we'll be building a Command Line database application.
+<h2>How to Install</h2>
+Fork and clone this repo
+CD into this directory
+'bundle install' to install all relevant files
+'ruby bin/run.rb' to start the game. 
 
-## Project Requirements
+<h2>How to Play</h2>
 
-### Option One - Data Analytics Project
+<p>Once you get started, you will make most choices via menu prompts or by pressing -enter- when the game instructs you to do so. 
+Be sure to keep track of Buffy's health so it doesn't get too low. Different weapons will have different effects on your enemies.</p>
 
-1. Access a Sqlite3 Database using ActiveRecord.
-2. You should have at minimum three models including one join model. This means you must have a many-to-many relationship.
-3. You should seed your database using data that you collect either from a CSV, a website by scraping, or an API.
-4. Your models should have methods that answer interesting questions about the data. For example, if you've collected info about movie reviews, what is the most popular movie? What movie has the most reviews?
-5. You should provide a CLI to display the return values of your interesting methods.  
-6. Use good OO design patterns. You should have separate classes for your models and CLI interface.
+<h2>About/Credits</h2>
+<p>I obviously do not own the rights to Buffy the Vampire Slayer (but it would be cool if I did). That's all Warner Brothers and the minds of Joss Whedon, Jane Espenson, and the other brilliant writers of the show. Please don't sue me, this is my homework! 
 
-  **Resource:** [Easy Access APIs](https://github.com/learn-co-curriculum/easy-access-apis)
+This app was created as part of a blog post for school. You can read about it here.
 
-### Option Two - Command Line CRUD App
-
-1. Access a Sqlite3 Database using ActiveRecord.
-2. You should have a minimum of three models.
-3. You should build out a CLI to give your user full CRUD ability for at least one of your resources. For example, build out a command line To-Do list. A user should be able to create a new to-do, see all todos, update a todo item, and delete a todo. Todos can be grouped into categories, so that a to-do has many categories and categories have many to-dos.
-4. Use good OO design patterns. You should have separate classes for your models and CLI interface.
-
-### Brainstorming and Proposing a Project Idea
-
-Projects need to be approved prior to launching into them, so take some time to brainstorm project options that will fulfill the requirements above.  You must have a minimum of four [user stories](https://en.wikipedia.org/wiki/User_story) to help explain how a user will interact with your app.  A user story should follow the general structure of `"As a <role>, I want <goal/desire> so that <benefit>"`. In example, if we were creating an app to randomly choose nearby restaurants on Yelp, we might write:
-
-* As a user, I want to be able to enter my name to retrieve my records
-* As a user, I want to enter a location and be given a random nearby restaurant suggestion
-* As a user, I should be able to reject a suggestion and not see that restaurant suggestion again
-* As a user, I want to be able to save to and retrieve a list of favorite restaurant suggestions
-
-## Instructions
-
-1. Fork and clone this repository.
-2. Build your application. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable.
-3. Make sure to create a good README.md with a short description, install instructions, a contributors guide and a link to the license for your code.
-4. Make sure your project checks off each of the above requirements.
-5. Prepare a video demo (narration helps!) describing how a user would interact with your working project.
-    * The video should:
-      - Have an overview of your project.(2 minutes max)
-6. Prepare a presentation to follow your video.(3 minutes max)
-    * Your presentation should:
-      - Describe something you struggled to build, and show us how you ultimately implemented it in your code.
-      - Discuss 3 things you learned in the process of working on this project.
-      - Address, if anything, what you would change or add to what you have today?
-      - Present any code you would like to highlight.   
-7. *OPTIONAL, BUT RECOMMENDED*: Write a blog post about the project and process.
-
----
-### Common Questions:
-- How do I turn off my SQL logger?
-```ruby
-# in config/environment.rb add this line:
-ActiveRecord::Base.logger = nil
-```
+Images were taken from here and music from here. Thanks to the people who took the time to make these photos available and ___, who turned the theme song into perfect video game music. 
+</p>

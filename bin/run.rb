@@ -1,5 +1,20 @@
 require_relative '../config/environment'
+require 'rmagick'
+require 'catpix'
+require 'tco'
+require 'down'
+require 'tty-prompt'
+require 'rubygems/util'
+require 'pastel'
 
 
+User.intro
+User.username
+# Interface.greeting
+# User.username 
 
-puts "HELLO WORLD"
+# person = User.welcome
+# person.start_story 
+# person.item_problem 
+# person.age_prob 
+# person.item_problem_before_store
