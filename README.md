@@ -4,10 +4,10 @@
 <p>Buffy's best friend Willow Rosenberg has always been a bit of a wallflower. She doesn't have a lot of success at school in the romance department. That all changes once she meets a friendly guy named Malcolm on the internet. He's romantic, caring, and hopelessly devoted to her. But...is he also a 14th century demon unleashed to wreak havoc on the world wide web? Only you can uncover the truth! </p>
 
 <h2>How to Install</h2>
-Fork and clone this repo
-CD into this directory
-'bundle install' to install all relevant files
-'ruby bin/run.rb' to start the game. 
+<p>Fork and clone this repo</p>
+<p>CD into this directory</p>
+<p>'bundle install' to install all relevant files</p>
+<p>'ruby bin/run.rb' to start the game.</p>
 
 <h2>How to Play</h2>
 
