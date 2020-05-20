@@ -6,10 +6,12 @@ require 'down'
 require 'tty-prompt'
 require 'rubygems/util'
 require 'pastel'
+require 'audio-playback'
+
 
 
 User.intro
-User.username
+User.moloch_story
 # Interface.greeting
 # User.username 
 

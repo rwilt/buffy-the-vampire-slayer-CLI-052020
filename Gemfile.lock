@@ -15,6 +15,10 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     arel (9.0.0)
+    audio-playback (0.0.8)
+      ffi-libc (~> 0.1, >= 0.1.0)
+      ffi-portaudio (~> 0.1, >= 0.1.2)
+      ruby-audio (~> 1.6, >= 1.6.1)
     catpix (0.2.0)
       docopt (~> 0.5, >= 0.5.0)
       rmagick (~> 2.15, >= 2.15.2)
@@ -30,6 +34,11 @@ GEM
     equatable (0.6.1)
     faker (2.11.0)
       i18n (>= 1.6, < 2)
+    ffi (1.12.2)
+    ffi-libc (0.1.0)
+      ffi (~> 1.0)
+    ffi-portaudio (0.1.2)
+      ffi
     http-accept (1.7.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
@@ -62,6 +71,7 @@ GEM
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
     rmagick (2.16.0)
+    ruby-audio (1.6.1)
     ruby-terminfo (0.1.1)
     ruby2_keywords (0.0.2)
     sinatra (2.0.8.1)
@@ -99,6 +109,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord (~> 5.2)
+  audio-playback
   catpix
   down
   faker
