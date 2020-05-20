@@ -19,5 +19,5 @@ Be sure to keep track of Buffy's health so it doesn't get too low. Different wea
 
 This app was created as part of a blog post for school. You can read about it here.
 
-Images were taken from here and music from here. Thanks to the people who took the time to make these photos available, and thanks to the developers who made all of these sweet graphics for the original Game Boy game. 
+Images were taken from here and music from here. Thanks to the people who took the time to make these photos available, and thanks to the developers who made all of these sweet graphics for the original Game Boy game. Castle image is created by <a href="https://twitter.com/eightbitstories?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">8 Bit Stories</a>.
 </p>
