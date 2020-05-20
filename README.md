@@ -19,5 +19,5 @@ Be sure to keep track of Buffy's health so it doesn't get too low. Different wea
 
 This app was created as part of a blog post for school. You can read about it here.
 
-Images were taken from here and music from here. Thanks to the people who took the time to make these photos available and ___, who turned the theme song into perfect video game music. 
+Images were taken from here and music from here. Thanks to the people who took the time to make these photos available, and thanks to the developers who made all of these sweet graphics for the original Game Boy game. 
 </p>
